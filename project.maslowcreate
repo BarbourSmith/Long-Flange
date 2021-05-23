@@ -658,6 +658,23 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Group",
+            "name": "Group",
+            "x": 0.4099560761346998,
+            "y": 0.25572519083969464,
+            "uniqueID": 525831,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Drive Gear",
             "x": 0.2049780380673499,
@@ -1376,27 +1393,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.41215226939970717,
-            "y": 0.6374045801526718,
-            "uniqueID": 525831,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Flange",
-            "x": 0.28770131771595897,
-            "y": 0.7290076335877863,
+            "x": 0.2847730600292826,
+            "y": 0.732824427480916,
             "uniqueID": 599336,
             "ioValues": [],
             "topLevel": false,
@@ -1544,10 +1544,27 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.7225475841874085,
+                    "y": 0.4312977099236641,
+                    "uniqueID": 356884,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": "atoms/170202/599336/252284/441167Group"
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": "atoms/170202/599336/664794Group"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.5849194729136163,
-                    "y": 0.5763358778625954,
+                    "x": 0.5900439238653001,
+                    "y": 0.6068702290076335,
                     "uniqueID": 252284,
                     "ioValues": [],
                     "topLevel": false,
@@ -1872,23 +1889,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.7225475841874085,
-                    "y": 0.4312977099236641,
-                    "uniqueID": 356884,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": "atoms/170202/599336/252284/441167Group"
-                        },
-                        {
-                            "name": "geometry1",
-                            "ioValue": "atoms/170202/599336/664794Group"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 0.3528550512445095,
@@ -2052,18 +2052,18 @@
                     "ap2ID": 858604
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 252284,
-                    "ap2ID": 356884
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 356884,
                     "ap2ID": 486254
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 252284,
+                    "ap2ID": 356884
                 },
                 {
                     "ap1Name": "geometry",
@@ -2112,19 +2112,12 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/170202/389252/665432Extrude"
+                    "ioValue": "atoms/170202/599336/486254Difference"
                 }
             ]
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 389252,
-            "ap2ID": 485968
-        },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
@@ -2138,9 +2131,16 @@
             "ap2Primary": false,
             "ap1ID": 599336,
             "ap2ID": 525831
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 599336,
+            "ap2ID": 485968
         }
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.201"
+    "circleSegmentSize": "0.051"
 }
