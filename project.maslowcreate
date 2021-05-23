@@ -1,0 +1,31 @@
+{
+    "atomType": "Molecule",
+    "name": "Long Flange",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 170202,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9853587115666179,
+            "y": 0.5,
+            "uniqueID": 485968,
+            "ioValues": []
+        },
+        {
+            "atomType": "Box",
+            "name": "Box",
+            "x": 0.2972181551976574,
+            "y": 0.3129770992366412,
+            "uniqueID": 387421,
+            "ioValues": []
+        }
+    ],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": "0.051"
+}
